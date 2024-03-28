@@ -4,15 +4,17 @@ import courseData from "../data/musicCourses.json"
 import Link from 'next/link'
 import { BackgroundGradient } from './ui/background-gradient'
 
-interface Course {
-    id: number,
-    title: string,
-    slug: string,
-    description:string,
-    price: number,
-    instructor: string,
-    isFeatured: boolean,
-}
+    interface Course {
+
+        id: number,
+        title: string,
+        slug: string,
+        description:string,
+        price: number,
+        instructor: string,
+        isFeatured: boolean,
+        
+    }
 const FeaturedCourses = () => {
  const featuredCourses =   courseData.courses.filter((course: Course )=>course.isFeatured)
   return (

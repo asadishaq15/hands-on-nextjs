@@ -52,6 +52,7 @@ const MusicSchool = [
 function WhyChooseUs() {
   return (
     <div>
+        
     <StickyScroll content={MusicSchool} />
 
 
