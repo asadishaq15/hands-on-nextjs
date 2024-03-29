@@ -4,6 +4,7 @@ import Herosection from "@/components/herosection";
 import WhyChooseUs from "@/components/whyChooseUs";
 import UpcomingwWebinars from "@/components/upcoming-webinars";
 import Instructor from "@/components/instructor";
+import Footer from "@/components/footer";
 
 
 export default function Home() {
@@ -15,5 +16,6 @@ export default function Home() {
 <TestimonialsCards/>
 <UpcomingwWebinars/>
 <Instructor/>
+<Footer/>
 </main>  );
 }
